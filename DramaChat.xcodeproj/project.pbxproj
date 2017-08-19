@@ -15,6 +15,18 @@
 		150496051F48A84900330C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150496031F48A84900330C2C /* LaunchScreen.storyboard */; };
 		150496101F48A84A00330C2C /* DramaChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504960F1F48A84A00330C2C /* DramaChatTests.swift */; };
 		1504961B1F48A84A00330C2C /* DramaChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504961A1F48A84A00330C2C /* DramaChatUITests.swift */; };
+		150496291F48AA3E00330C2C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150496281F48AA3E00330C2C /* API.swift */; };
+		1504962B1F48AD4700330C2C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504962A1F48AD4700330C2C /* Comment.swift */; };
+		1531AB2B1F48E70E008C6C58 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531AB2A1F48E70E008C6C58 /* Actor.swift */; };
+		1531AB2D1F48E86E008C6C58 /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531AB2C1F48E86E008C6C58 /* BaseObject.swift */; };
+		1531AB341F4A3434008C6C58 /* TextEntryAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531AB331F4A3434008C6C58 /* TextEntryAccessoryView.swift */; };
+		1534F22C1F4ABBF0005FAB72 /* ChatItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1534F22B1F4ABBF0005FAB72 /* ChatItemTableViewCell.swift */; };
+		1534F22E1F4ABC15005FAB72 /* ArtistImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1534F22D1F4ABC15005FAB72 /* ArtistImageView.swift */; };
+		15CFA77F1F4BB4F9001204F4 /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CFA77E1F4BB4F9001204F4 /* LoadingImageView.swift */; };
+		15CFA7811F4BB894001204F4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CFA7801F4BB894001204F4 /* LoadingView.swift */; };
+		15CFA7831F4BD7AA001204F4 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 15CFA7821F4BD7AA001204F4 /* db.json */; };
+		15CFA7861F4BDDBD001204F4 /* StreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CFA7851F4BDDBD001204F4 /* StreamManager.swift */; };
+		15FDA4051F4ACC8D0076FFE8 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDA4041F4ACC8D0076FFE8 /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		150496161F48A84A00330C2C /* DramaChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DramaChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1504961A1F48A84A00330C2C /* DramaChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaChatUITests.swift; sourceTree = "<group>"; };
 		1504961C1F48A84A00330C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150496281F48AA3E00330C2C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1504962A1F48AD4700330C2C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		1531AB2A1F48E70E008C6C58 /* Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		1531AB2C1F48E86E008C6C58 /* BaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
+		1531AB331F4A3434008C6C58 /* TextEntryAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryAccessoryView.swift; sourceTree = "<group>"; };
+		1534F22B1F4ABBF0005FAB72 /* ChatItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItemTableViewCell.swift; sourceTree = "<group>"; };
+		1534F22D1F4ABC15005FAB72 /* ArtistImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistImageView.swift; sourceTree = "<group>"; };
+		15CFA77E1F4BB4F9001204F4 /* LoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
+		15CFA7801F4BB894001204F4 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		15CFA7821F4BD7AA001204F4 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		15CFA7851F4BDDBD001204F4 /* StreamManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamManager.swift; sourceTree = "<group>"; };
+		15FDA4041F4ACC8D0076FFE8 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,7 @@
 		150495EB1F48A84900330C2C = {
 			isa = PBXGroup;
 			children = (
+				15CFA7821F4BD7AA001204F4 /* db.json */,
 				150495F61F48A84900330C2C /* DramaChat */,
 				1504960E1F48A84A00330C2C /* DramaChatTests */,
 				150496191F48A84A00330C2C /* DramaChatUITests */,
@@ -100,12 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				150495F71F48A84900330C2C /* AppDelegate.swift */,
-				150495F91F48A84900330C2C /* ViewController.swift */,
-				150495FB1F48A84900330C2C /* Main.storyboard */,
-				150496011F48A84900330C2C /* Assets.xcassets */,
-				150496031F48A84900330C2C /* LaunchScreen.storyboard */,
-				150496061F48A84900330C2C /* Info.plist */,
-				150495FE1F48A84900330C2C /* DramaChat.xcdatamodeld */,
+				1531AB2F1F48F506008C6C58 /* API */,
+				1531AB2E1F48F502008C6C58 /* Objects */,
+				15CFA7841F4BDDA7001204F4 /* Stream */,
+				1531AB311F4A33F0008C6C58 /* Views */,
+				1531AB301F4A33EA008C6C58 /* View Controllers */,
+				1531AB321F4A33FD008C6C58 /* Resources */,
 			);
 			path = DramaChat;
 			sourceTree = "<group>";
@@ -126,6 +151,65 @@
 				1504961C1F48A84A00330C2C /* Info.plist */,
 			);
 			path = DramaChatUITests;
+			sourceTree = "<group>";
+		};
+		1531AB2E1F48F502008C6C58 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1531AB2A1F48E70E008C6C58 /* Actor.swift */,
+				1531AB2C1F48E86E008C6C58 /* BaseObject.swift */,
+				1504962A1F48AD4700330C2C /* Comment.swift */,
+				15FDA4041F4ACC8D0076FFE8 /* Feed.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		1531AB2F1F48F506008C6C58 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				150496281F48AA3E00330C2C /* API.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		1531AB301F4A33EA008C6C58 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				150495F91F48A84900330C2C /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1531AB311F4A33F0008C6C58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1531AB331F4A3434008C6C58 /* TextEntryAccessoryView.swift */,
+				1534F22B1F4ABBF0005FAB72 /* ChatItemTableViewCell.swift */,
+				1534F22D1F4ABC15005FAB72 /* ArtistImageView.swift */,
+				15CFA77E1F4BB4F9001204F4 /* LoadingImageView.swift */,
+				15CFA7801F4BB894001204F4 /* LoadingView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1531AB321F4A33FD008C6C58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				150495FB1F48A84900330C2C /* Main.storyboard */,
+				150496011F48A84900330C2C /* Assets.xcassets */,
+				150496031F48A84900330C2C /* LaunchScreen.storyboard */,
+				150496061F48A84900330C2C /* Info.plist */,
+				150495FE1F48A84900330C2C /* DramaChat.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		15CFA7841F4BDDA7001204F4 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				15CFA7851F4BDDBD001204F4 /* StreamManager.swift */,
+			);
+			name = Stream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +280,7 @@
 				TargetAttributes = {
 					150495F31F48A84900330C2C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = Y34YECGXL4;
+						DevelopmentTeam = B2N86UM9XN;
 						ProvisioningStyle = Automatic;
 					};
 					1504960A1F48A84A00330C2C = {
@@ -239,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				150496051F48A84900330C2C /* LaunchScreen.storyboard in Resources */,
+				15CFA7831F4BD7AA001204F4 /* db.json in Resources */,
 				150496021F48A84900330C2C /* Assets.xcassets in Resources */,
 				150495FD1F48A84900330C2C /* Main.storyboard in Resources */,
 			);
@@ -265,9 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1534F22C1F4ABBF0005FAB72 /* ChatItemTableViewCell.swift in Sources */,
+				1504962B1F48AD4700330C2C /* Comment.swift in Sources */,
 				150495FA1F48A84900330C2C /* ViewController.swift in Sources */,
+				15CFA7861F4BDDBD001204F4 /* StreamManager.swift in Sources */,
 				150495F81F48A84900330C2C /* AppDelegate.swift in Sources */,
+				15CFA7811F4BB894001204F4 /* LoadingView.swift in Sources */,
+				15FDA4051F4ACC8D0076FFE8 /* Feed.swift in Sources */,
+				1531AB2B1F48E70E008C6C58 /* Actor.swift in Sources */,
+				1531AB2D1F48E86E008C6C58 /* BaseObject.swift in Sources */,
+				1531AB341F4A3434008C6C58 /* TextEntryAccessoryView.swift in Sources */,
+				15CFA77F1F4BB4F9001204F4 /* LoadingImageView.swift in Sources */,
+				150496291F48AA3E00330C2C /* API.swift in Sources */,
 				150496001F48A84900330C2C /* DramaChat.xcdatamodeld in Sources */,
+				1534F22E1F4ABC15005FAB72 /* ArtistImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -421,8 +517,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y34YECGXL4;
+				DEVELOPMENT_TEAM = B2N86UM9XN;
 				INFOPLIST_FILE = DramaChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2020deception.DramaChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,8 +531,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y34YECGXL4;
+				DEVELOPMENT_TEAM = B2N86UM9XN;
 				INFOPLIST_FILE = DramaChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2020deception.DramaChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +618,7 @@
 				150496211F48A84A00330C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		150496221F48A84A00330C2C /* Build configuration list for PBXNativeTarget "DramaChatTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +627,7 @@
 				150496241F48A84A00330C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		150496251F48A84A00330C2C /* Build configuration list for PBXNativeTarget "DramaChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +636,7 @@
 				150496271F48A84A00330C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

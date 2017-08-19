@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Min-ho Lee",
+      "imageURL": "https://s3.amazonaws.com/2020jsondemo/MV5BZmNkMjc0ZmYtNTVlMy00MjQ1LTlmNzctNjJjYjU2YTY4ZTg1XkEyXkFqcGdeQXVyMjIyNzU0OA%40%40._V1_.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "He is so hot!",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "He is my favorite actor!",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "Who is this guy?",
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "body": "Ummmmm. 😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍",
+      "postId": 1
+    },
+    {
+      "id": 5,
+      "body": "Name all of his shows if you're a fan :::",
+      "postId": 1
+    },
+    {
+      "id": 6,
+      "body": "Here are my favorite movies - Boys Over Flowers, City Hunter and Heirs",
+      "postId": 1
+    },
+    {
+      "id": 7,
+      "body": "I think City Hunter is the best",
+      "postId": 1
+    }
+  ]
+}
