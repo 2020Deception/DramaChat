@@ -108,10 +108,9 @@ class ViewController: UIViewController {
         if let actor = actor {
             self.title = actor.title
             do {
-                if let url = URL(string: actor.imageURL) {
-                    let data = try Data(contentsOf: url)
-                    self.setPic(image:  UIImage(data: data))
-                }
+                guard let urlString = actor.imageURL, let url = URL(string: urlString) else { return }
+                let data = try Data(contentsOf: url)
+                self.setPic(image:  UIImage(data: data))
             } catch {
                 print("Error:\(error)")
             }

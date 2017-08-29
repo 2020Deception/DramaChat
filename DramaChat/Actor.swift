@@ -9,11 +9,12 @@
 import Foundation
 
 class Actor: BaseObject {
-    var title: String!
-    var imageURL: String!
+    var title: String?
+    var imageURL: String?
     
-    override init(dict: JSONDict) {
+    override init(dict: JSONDict?) {
         super.init(dict: dict)
+        guard let dict = dict else { return }
         title = dict["title"] as? String ?? ""
         imageURL = dict["imageURL"] as? String ?? ""
     }

@@ -9,15 +9,15 @@
 import Foundation
 
 class Comment: BaseObject {
-    var body: String!
-    var postId: Int!
+    var body: String?
+    var postId: Int?
     
-    override init(dict: JSONDict) {
+    override init(dict: JSONDict?) {
         super.init(dict: dict)
+        guard let dict = dict else { return }
         self.body = dict["body"] as? String ?? ""
-        if let postId = dict["postId"] as? Int {
-            self.postId = postId
-        }
+        guard let postId = dict["postId"] as? Int else { return }
+        self.postId = postId
     }
     
 }

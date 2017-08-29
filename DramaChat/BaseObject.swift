@@ -11,10 +11,9 @@ import Foundation
 typealias JSONDict = [String:AnyObject?]
 
 class BaseObject {
-    var id: Int!
-    init(dict:JSONDict) {
-        if let id = dict["id"] as? Int {
-            self.id = id
-        }
+    var id: Int?
+    init(dict:JSONDict?) {
+        guard let dict = dict, let id = dict["id"] as? Int else { return }
+        self.id = id
     }
 }
